@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./weather.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="circle position-center" style="--size: 340px;"></div>
+      <div class="circle position-center" style="--size: 540px;"></div>
+      <div class="circle position-center" style="--size: 740px;"></div>
+      <div class="circle position-center" style="--size: 940px;"></div>
+      <div class="inner-container light">
+        <div class="inputs">
+          <input type="text" id="search" placeholder="Search for a city or airport" />
+          <button onclick="search()">search</button>
+          <div id="list"></div>
+        </div>
+
+
+
+        <img src="./images/Ellipse 21.png" alt="" class="sun" />
+        <div class="phone-framer white">
+          <div class="map">
+            <div class="day">
+              <p class="time">August 11,2023</p>
+              <h1 class="krakow">UlanBator</h1>
+            </div>
+            <img src="./images/map.png" alt="" class="vector-map" />
+          </div>
+          <div>
+            <img src="./images/icon.png" alt="" class="icon" />
+          </div>
+            <div>
+              <h1 class="gradus">26°</h1>
+              <p class="take-on">Bright</p>
+            </div>
+            <div class="selection">
+              <img src="./images/home.png" alt="" class="mini">
+              <img src="./images/Pin.png" alt="" class="mini">
+              <img src="./images/heart.png" alt="" class="mini">
+              <img src="./images/User.png" alt="" class="mini">
+            </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="inner-container dark">
+        <img src="./images/Ellipse 22.png" alt="" class="moon" />
+        <div class="phone-framer black">
+          <div class="map">
+            <div class="day1">
+              <p class="time">August 11,2023</p>
+              <h1 class="krakow">UlanBator</h1>
+            </div>
+              <img src="./images/map.png" alt="" class="vector-map" />
+          </div>
+          <div>
+            <img src="./images/icon (1).png" alt="" class="big-moon" />
+          </div>
+          <div class="bottom">
+              <h1 class="gradus1">17°</h1>
+              <p class="take-on1">Clear</p>
+            </div>
+            <div class="selection">
+              <img src="./images/home.png" alt="" class="mini">
+              <img src="./images/Pin.png" alt="" class="mini">
+              <img src="./images/heart.png" alt="" class="mini">
+              <img src="./images/User.png" alt="" class="mini">
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="logo position-center">
+        <img src="./images/Vector.png" alt="" />
+        <img src="./images/Vector (1).png" alt="" />
+      </div>
+    </div>
+    <script src="./weather.js"></script>
+  </body>
+</html>
